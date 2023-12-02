@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.social-icon {
+  
+  
+  /* Set the icon color to Bootstrap's primary color */
+  margin: 0 10px; /* Adjust the spacing between icons */
+}
+.row{
+  text-align: center;
+  width: fixed;
+  
+  
+}
+.custom-h1 {
+  font-size: 2.0rem;
+  background-color: rgb(32, 28, 28);
+  
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue; /* Set your desired font size */
+  /* Add any other styles you need */
+}
+.social-icon:hover {
+  color: white;
+  /* Change the color on hover */
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.skills-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body {
+  padding-top: 2px; /* Adjust this value based on the height of your navbar */
+}
+
+.bar {
+  height: 30px;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.bar-fill {
+  height: 100%;
+  background-color: rgb(10, 4, 23); /* Green color for filled portion */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  color: #d3cece; /* White text color for labels and percentages */
+}
+
+.label {
+  font-weight: bold;
+}
+
+.percentage {
+  margin-right: 5px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
